@@ -1,0 +1,298 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dishant.thumbar\\Desktop\\Personal Project Enjoyments\\CustomCodeSnippets\\Snippet Enjoyments\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dishant.thumbar\\Desktop\\Personal Project Enjoyments\\CustomCodeSnippets\\Snippet Enjoyments\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dishant.thumbar\\Desktop\\Personal Project Enjoyments\\CustomCodeSnippets\\Snippet Enjoyments\\T4TemplateEnjoyment\\DTOandDataModels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:T4TemplateEnjoyment\\DTOandDataModels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dishant.thumbar\\Desktop\\Personal Project Enjoyments\\CustomCodeSnippets\\Snippet Enjoyments\\Assert.snippet||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assert.snippet||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dishant.thumbar\\Desktop\\Personal Project Enjoyments\\CustomCodeSnippets\\Snippet Enjoyments\\T4TemplateEnjoyment\\GenerateFluentValidationValidator.tt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:T4TemplateEnjoyment\\GenerateFluentValidationValidator.tt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dishant.thumbar\\Desktop\\Personal Project Enjoyments\\CustomCodeSnippets\\Snippet Enjoyments\\T4TemplateEnjoyment\\GenerateFluentValidationValidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:T4TemplateEnjoyment\\GenerateFluentValidationValidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dishant.thumbar\\Desktop\\Personal Project Enjoyments\\CustomCodeSnippets\\Snippet Enjoyments\\T4TemplateEnjoyment\\GenerateDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:T4TemplateEnjoyment\\GenerateDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dishant.thumbar\\Desktop\\Personal Project Enjoyments\\CustomCodeSnippets\\Snippet Enjoyments\\T4TemplateEnjoyment\\GenerateDTO.tt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:T4TemplateEnjoyment\\GenerateDTO.tt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dishant.thumbar\\Desktop\\Personal Project Enjoyments\\CustomCodeSnippets\\Snippet Enjoyments\\T4TemplateEnjoyment\\BulkDTOAndDataModels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:T4TemplateEnjoyment\\BulkDTOAndDataModels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dishant.thumbar\\Desktop\\Personal Project Enjoyments\\CustomCodeSnippets\\Snippet Enjoyments\\T4TemplateEnjoyment\\BulkDTOAndDataModels.tt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:T4TemplateEnjoyment\\BulkDTOAndDataModels.tt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dishant.thumbar\\Desktop\\Personal Project Enjoyments\\CustomCodeSnippets\\Snippet Enjoyments\\T4TemplateEnjoyment\\DTOandDataModels.tt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:T4TemplateEnjoyment\\DTOandDataModels.tt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dishant.thumbar\\Desktop\\Personal Project Enjoyments\\CustomCodeSnippets\\Snippet Enjoyments\\Property.snippet||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Property.snippet||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dishant.thumbar\\Desktop\\Personal Project Enjoyments\\CustomCodeSnippets\\Snippet Enjoyments\\Linq.snippet||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Linq.snippet||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dishant.thumbar\\Desktop\\Personal Project Enjoyments\\CustomCodeSnippets\\Snippet Enjoyments\\customSnippetCheckEnjoyment.snippet||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:customSnippetCheckEnjoyment.snippet||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dishant.thumbar\\Desktop\\Personal Project Enjoyments\\CustomCodeSnippets\\Snippet Enjoyments\\automapper.snippet||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:automapper.snippet||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dishant.thumbar\\Desktop\\Personal Project Enjoyments\\CustomCodeSnippets\\Snippet Enjoyments\\TestMethod.snippet||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TestMethod.snippet||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dishant.thumbar\\Desktop\\Personal Project Enjoyments\\CustomCodeSnippets\\Snippet Enjoyments\\stringFormat.snippet||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:stringFormat.snippet||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GenerateFluentValidationValidator.cs",
+              "DocumentMoniker": "C:\\Users\\dishant.thumbar\\Desktop\\Personal Project Enjoyments\\CustomCodeSnippets\\Snippet Enjoyments\\T4TemplateEnjoyment\\GenerateFluentValidationValidator.cs",
+              "RelativeDocumentMoniker": "T4TemplateEnjoyment\\GenerateFluentValidationValidator.cs",
+              "ToolTip": "C:\\Users\\dishant.thumbar\\Desktop\\Personal Project Enjoyments\\CustomCodeSnippets\\Snippet Enjoyments\\T4TemplateEnjoyment\\GenerateFluentValidationValidator.cs",
+              "RelativeToolTip": "T4TemplateEnjoyment\\GenerateFluentValidationValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T08:03:25.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\dishant.thumbar\\Desktop\\Personal Project Enjoyments\\CustomCodeSnippets\\Snippet Enjoyments\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\dishant.thumbar\\Desktop\\Personal Project Enjoyments\\CustomCodeSnippets\\Snippet Enjoyments\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-11-11T04:19:53.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GenerateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\dishant.thumbar\\Desktop\\Personal Project Enjoyments\\CustomCodeSnippets\\Snippet Enjoyments\\T4TemplateEnjoyment\\GenerateDTO.cs",
+              "RelativeDocumentMoniker": "T4TemplateEnjoyment\\GenerateDTO.cs",
+              "ToolTip": "C:\\Users\\dishant.thumbar\\Desktop\\Personal Project Enjoyments\\CustomCodeSnippets\\Snippet Enjoyments\\T4TemplateEnjoyment\\GenerateDTO.cs",
+              "RelativeToolTip": "T4TemplateEnjoyment\\GenerateDTO.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAADUAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T03:37:25.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GenerateFluentValidationValidator.tt",
+              "DocumentMoniker": "C:\\Users\\dishant.thumbar\\Desktop\\Personal Project Enjoyments\\CustomCodeSnippets\\Snippet Enjoyments\\T4TemplateEnjoyment\\GenerateFluentValidationValidator.tt",
+              "RelativeDocumentMoniker": "T4TemplateEnjoyment\\GenerateFluentValidationValidator.tt",
+              "ToolTip": "C:\\Users\\dishant.thumbar\\Desktop\\Personal Project Enjoyments\\CustomCodeSnippets\\Snippet Enjoyments\\T4TemplateEnjoyment\\GenerateFluentValidationValidator.tt",
+              "RelativeToolTip": "T4TemplateEnjoyment\\GenerateFluentValidationValidator.tt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-11-11T03:41:21.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Assert.snippet",
+              "DocumentMoniker": "C:\\Users\\dishant.thumbar\\Desktop\\Personal Project Enjoyments\\CustomCodeSnippets\\Snippet Enjoyments\\Assert.snippet",
+              "RelativeDocumentMoniker": "Assert.snippet",
+              "ToolTip": "C:\\Users\\dishant.thumbar\\Desktop\\Personal Project Enjoyments\\CustomCodeSnippets\\Snippet Enjoyments\\Assert.snippet",
+              "RelativeToolTip": "Assert.snippet",
+              "ViewState": "AQIAALEAAAAAAAAAAAAAAHMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002852|",
+              "WhenOpened": "2024-11-11T03:03:52.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GenerateDTO.tt",
+              "DocumentMoniker": "C:\\Users\\dishant.thumbar\\Desktop\\Personal Project Enjoyments\\CustomCodeSnippets\\Snippet Enjoyments\\T4TemplateEnjoyment\\GenerateDTO.tt",
+              "RelativeDocumentMoniker": "T4TemplateEnjoyment\\GenerateDTO.tt",
+              "ToolTip": "C:\\Users\\dishant.thumbar\\Desktop\\Personal Project Enjoyments\\CustomCodeSnippets\\Snippet Enjoyments\\T4TemplateEnjoyment\\GenerateDTO.tt",
+              "RelativeToolTip": "T4TemplateEnjoyment\\GenerateDTO.tt",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAABEAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-11-11T03:33:00.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BulkDTOAndDataModels.cs",
+              "DocumentMoniker": "C:\\Users\\dishant.thumbar\\Desktop\\Personal Project Enjoyments\\CustomCodeSnippets\\Snippet Enjoyments\\T4TemplateEnjoyment\\BulkDTOAndDataModels.cs",
+              "RelativeDocumentMoniker": "T4TemplateEnjoyment\\BulkDTOAndDataModels.cs",
+              "ToolTip": "C:\\Users\\dishant.thumbar\\Desktop\\Personal Project Enjoyments\\CustomCodeSnippets\\Snippet Enjoyments\\T4TemplateEnjoyment\\BulkDTOAndDataModels.cs",
+              "RelativeToolTip": "T4TemplateEnjoyment\\BulkDTOAndDataModels.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAANsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T08:07:24.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BulkDTOAndDataModels.tt",
+              "DocumentMoniker": "C:\\Users\\dishant.thumbar\\Desktop\\Personal Project Enjoyments\\CustomCodeSnippets\\Snippet Enjoyments\\T4TemplateEnjoyment\\BulkDTOAndDataModels.tt",
+              "RelativeDocumentMoniker": "T4TemplateEnjoyment\\BulkDTOAndDataModels.tt",
+              "ToolTip": "C:\\Users\\dishant.thumbar\\Desktop\\Personal Project Enjoyments\\CustomCodeSnippets\\Snippet Enjoyments\\T4TemplateEnjoyment\\BulkDTOAndDataModels.tt",
+              "RelativeToolTip": "T4TemplateEnjoyment\\BulkDTOAndDataModels.tt",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAAAEUAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-11-12T06:54:58.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DTOandDataModels.tt",
+              "DocumentMoniker": "C:\\Users\\dishant.thumbar\\Desktop\\Personal Project Enjoyments\\CustomCodeSnippets\\Snippet Enjoyments\\T4TemplateEnjoyment\\DTOandDataModels.tt",
+              "RelativeDocumentMoniker": "T4TemplateEnjoyment\\DTOandDataModels.tt",
+              "ToolTip": "C:\\Users\\dishant.thumbar\\Desktop\\Personal Project Enjoyments\\CustomCodeSnippets\\Snippet Enjoyments\\T4TemplateEnjoyment\\DTOandDataModels.tt",
+              "RelativeToolTip": "T4TemplateEnjoyment\\DTOandDataModels.tt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-11-12T06:36:49.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DTOandDataModels.cs",
+              "DocumentMoniker": "C:\\Users\\dishant.thumbar\\Desktop\\Personal Project Enjoyments\\CustomCodeSnippets\\Snippet Enjoyments\\T4TemplateEnjoyment\\DTOandDataModels.cs",
+              "RelativeDocumentMoniker": "T4TemplateEnjoyment\\DTOandDataModels.cs",
+              "ToolTip": "C:\\Users\\dishant.thumbar\\Desktop\\Personal Project Enjoyments\\CustomCodeSnippets\\Snippet Enjoyments\\T4TemplateEnjoyment\\DTOandDataModels.cs",
+              "RelativeToolTip": "T4TemplateEnjoyment\\DTOandDataModels.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAHMAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T08:08:52.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "automapper.snippet",
+              "DocumentMoniker": "C:\\Users\\dishant.thumbar\\Desktop\\Personal Project Enjoyments\\CustomCodeSnippets\\Snippet Enjoyments\\automapper.snippet",
+              "RelativeDocumentMoniker": "automapper.snippet",
+              "ToolTip": "C:\\Users\\dishant.thumbar\\Desktop\\Personal Project Enjoyments\\CustomCodeSnippets\\Snippet Enjoyments\\automapper.snippet",
+              "RelativeToolTip": "automapper.snippet",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002852|",
+              "WhenOpened": "2024-11-11T02:46:27.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "customSnippetCheckEnjoyment.snippet",
+              "DocumentMoniker": "C:\\Users\\dishant.thumbar\\Desktop\\Personal Project Enjoyments\\CustomCodeSnippets\\Snippet Enjoyments\\customSnippetCheckEnjoyment.snippet",
+              "RelativeDocumentMoniker": "customSnippetCheckEnjoyment.snippet",
+              "ToolTip": "C:\\Users\\dishant.thumbar\\Desktop\\Personal Project Enjoyments\\CustomCodeSnippets\\Snippet Enjoyments\\customSnippetCheckEnjoyment.snippet",
+              "RelativeToolTip": "customSnippetCheckEnjoyment.snippet",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002852|",
+              "WhenOpened": "2024-11-11T02:46:43.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Property.snippet",
+              "DocumentMoniker": "C:\\Users\\dishant.thumbar\\Desktop\\Personal Project Enjoyments\\CustomCodeSnippets\\Snippet Enjoyments\\Property.snippet",
+              "RelativeDocumentMoniker": "Property.snippet",
+              "ToolTip": "C:\\Users\\dishant.thumbar\\Desktop\\Personal Project Enjoyments\\CustomCodeSnippets\\Snippet Enjoyments\\Property.snippet",
+              "RelativeToolTip": "Property.snippet",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAKIAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002852|",
+              "WhenOpened": "2024-11-11T02:47:00.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Linq.snippet",
+              "DocumentMoniker": "C:\\Users\\dishant.thumbar\\Desktop\\Personal Project Enjoyments\\CustomCodeSnippets\\Snippet Enjoyments\\Linq.snippet",
+              "RelativeDocumentMoniker": "Linq.snippet",
+              "ToolTip": "C:\\Users\\dishant.thumbar\\Desktop\\Personal Project Enjoyments\\CustomCodeSnippets\\Snippet Enjoyments\\Linq.snippet",
+              "RelativeToolTip": "Linq.snippet",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002852|",
+              "WhenOpened": "2024-11-11T03:46:58.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TestMethod.snippet",
+              "DocumentMoniker": "C:\\Users\\dishant.thumbar\\Desktop\\Personal Project Enjoyments\\CustomCodeSnippets\\Snippet Enjoyments\\TestMethod.snippet",
+              "RelativeDocumentMoniker": "TestMethod.snippet",
+              "ToolTip": "C:\\Users\\dishant.thumbar\\Desktop\\Personal Project Enjoyments\\CustomCodeSnippets\\Snippet Enjoyments\\TestMethod.snippet",
+              "RelativeToolTip": "TestMethod.snippet",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002852|",
+              "WhenOpened": "2024-11-11T02:51:26.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "stringFormat.snippet",
+              "DocumentMoniker": "C:\\Users\\dishant.thumbar\\Desktop\\Personal Project Enjoyments\\CustomCodeSnippets\\Snippet Enjoyments\\stringFormat.snippet",
+              "RelativeDocumentMoniker": "stringFormat.snippet",
+              "ToolTip": "C:\\Users\\dishant.thumbar\\Desktop\\Personal Project Enjoyments\\CustomCodeSnippets\\Snippet Enjoyments\\stringFormat.snippet",
+              "RelativeToolTip": "stringFormat.snippet",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002852|",
+              "WhenOpened": "2024-08-29T10:00:06.078Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

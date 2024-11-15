@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Log Message</Title>
+      <Shortcut>logmsg</Shortcut>
+      <Description>Inserts a formatted log message</Description>
+      <Author>Your Name</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>logLevel</ID>
+          <ToolTip>Log level (e.g., INFO, ERROR)</ToolTip>
+          <Default>INFO</Default>
+        </Literal>
+        <Literal>
+          <ID>message</ID>
+          <ToolTip>The log message</ToolTip>
+          <Default>Log entry</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="CSharp">
+        <![CDATA[
+        Console.WriteLine(String.Format("[{0}] {1}", $logLevel$, $message$));
+        ]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

@@ -1,0 +1,108 @@
+<#@ template debug="false" hostspecific="true" language="C#" #>
+<#@ output extension=".cs" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ import namespace="System.Text" #>
+<#
+    // Define the list of lists containing property definitions for multiple tables
+    var tableDefinitions = new List<List<Tuple<string, string>>>
+    {
+        new List<Tuple<string, string>>
+        {
+            Tuple.Create("int", "OrderId"),
+            Tuple.Create("Guid", "CustomerId"),
+            Tuple.Create("DateTime", "OrderDate"),
+            Tuple.Create("DateTime?", "ShipmentDate"),
+            Tuple.Create("decimal", "TotalAmount"),
+            Tuple.Create("string", "OrderStatus"), 
+            Tuple.Create("List<string>", "ProductList"), 
+            Tuple.Create("bool", "IsGiftWrapped"),
+            Tuple.Create("string", "ShippingAddress"),
+            Tuple.Create("decimal", "TaxAmount"),
+            Tuple.Create("Guid", "TransactionId"), 
+            Tuple.Create("char", "OrderPriority")       
+        },
+        new List<Tuple<string, string>>
+        {
+            Tuple.Create("int", "ProductId"),
+            Tuple.Create("string", "ProductName"),
+            Tuple.Create("string", "Category"),
+            Tuple.Create("decimal", "Price"),
+            Tuple.Create("int", "StockQuantity"),
+            Tuple.Create("DateTime", "DateAdded"),
+            Tuple.Create("float", "DiscountRate"),
+            Tuple.Create("List<string>", "Tags"),
+            Tuple.Create("Guid", "SupplierId"),
+            Tuple.Create("bool", "IsAvailable"),
+            Tuple.Create("string", "ProductDescription"),
+            Tuple.Create("string", "SKU")
+        },
+        new List<Tuple<string, string>>
+        {
+            Tuple.Create("int", "InvoiceId"),
+            Tuple.Create("Guid", "OrderId"),
+            Tuple.Create("DateTime", "InvoiceDate"),
+            Tuple.Create("decimal", "AmountDue"),
+            Tuple.Create("DateTime", "DueDate"),
+            Tuple.Create("bool", "IsPaid"),
+            Tuple.Create("string", "PaymentMethod"),
+            Tuple.Create("Guid", "CustomerId"),
+            Tuple.Create("List<string>", "LineItems"),
+            Tuple.Create("decimal", "LateFee"), 
+            Tuple.Create("short", "CurrencyCode"),
+            Tuple.Create("string", "Notes")
+        }
+    };
+
+    // Corresponding class names for each table
+    var tableNames = new List<string> { "PurchaseOrder", "Product", "Invoice" };
+
+    for (int i = 0; i < tableDefinitions.Count; i++)
+    {
+        var properties = tableDefinitions[i];
+        var tableName = tableNames[i];
+
+#>
+namespace GeneratedModels
+{
+    [Table("<#= tableName #>")]
+    public class <#= tableName #>DataModel
+    {
+<#
+        foreach (var property in properties)
+        {
+            var propertyType = property.Item1;
+            var propertyName = property.Item2;
+            var columnName = propertyName;
+#>
+
+        [Column("<#= columnName #>")]
+        public <#= propertyType #> <#= propertyName #> { get; set; }
+<#
+        }
+#>
+    }
+}
+<#
+
+#>
+namespace GeneratedModels
+{
+    public class <#= tableName #>DTO
+    {
+<#
+        foreach (var property in properties)
+        {
+            var propertyType = property.Item1;
+            var propertyName = property.Item2;
+
+#>
+
+        public <#= propertyType #> <#= propertyName #> { get; set; }
+<#
+        }
+#>
+    }
+}
+<#
+    }
+#>

@@ -1,0 +1,66 @@
+<#@ template language="C#" debug="false" hostspecific="true" #>
+<#@ output extension=".cs" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+
+<#
+    // Sample input: className and properties (propertyType, propertyName, columnName)
+    string className = "SupplyChainResource";
+    List<Tuple<string, string, string>> properties = new List<Tuple<string, string, string>>()
+    {
+        Tuple.Create("int", "SupplyId", "Supply_Id"),
+        Tuple.Create("string", "ItemName", "Item_Name"),
+        Tuple.Create("string", "SupplierName", "string.Empty"),
+        Tuple.Create("int", "Quantity", "Qty"),
+        Tuple.Create("decimal", "UnitPrice", "Price_Per_Unit"),
+        Tuple.Create("DateTime", "OrderDate", "Order_Date"),
+        Tuple.Create("DateTime", "ExpectedDeliveryDate", "Expected_Delivery"),
+        Tuple.Create("string", "WarehouseLocation", "Warehouse_Loc"),
+        Tuple.Create("bool", "IsDelivered", "Is_Delivered"),
+        Tuple.Create("DateTime", "DeliveryDate", "Delivery_Date"),
+        Tuple.Create("string", "ShipmentTrackingNumber", "Tracking_Number"),
+        Tuple.Create("string", "Category", "Category_Type")    
+    };
+#>
+
+namespace GeneratedModels
+{
+    public class <#= className #>DTO
+    {
+<#
+    foreach (var prop in properties)
+    {
+        string formattedComment = System.Text.RegularExpressions.Regex.Replace(prop.Item2, "(\\B[A-Z])", " $1");
+#>
+        /// <summary>
+        /// <#= formattedComment #>
+        /// </summary>
+        public <#= prop.Item1 #> <#= prop.Item2 #> { get; set; }
+
+<#
+    }
+#>
+    }
+
+    [Table("<#= className #>")]
+    public class <#= className #>DataModel
+    {
+<#
+    foreach (var prop in properties)
+    {
+        string columnName = prop.Item3 == "string.Empty" ? prop.Item2 : prop.Item3;
+        string formattedComment = System.Text.RegularExpressions.Regex.Replace(prop.Item2, "(\\B[A-Z])", " $1");
+#>
+        /// <summary>
+        /// <#= formattedComment #>
+        /// </summary>
+        [Column("<#= columnName #>")]
+        public <#= prop.Item1 #> <#= prop.Item2 #> { get; set; }
+
+<#
+    }
+#>
+    }
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>My Custom Snippet</Title>
+      <Shortcut>mycustomsnippet</Shortcut>
+      <Description>A custom code snippet for Visual Studio 2022</Description>
+      <Author>Your Name</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Imports>
+        <Import>AutoMapper</Import>
+      </Imports>        
+      <Declarations>
+      <L>dd</L>
+        <Literal>
+          <ID>variableName</ID>
+          <ToolTip>Enter a variable name</ToolTip>
+          <Default>myVariable</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="CSharp">
+        <![CDATA[
+        public void $variableName$()
+        {
+            Console.WriteLine("Hello from $variableName$!");
+        }
+        ]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+
+    <Header>
+      <Title>Property</Title>
+      <Shortcut>dprop</Shortcut>
+      <Description>Genrates a property with xml comment</Description>
+      <Author>Dishant</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+		
+      <Declarations>
+		  
+        <Literal>
+          <ID>propertyType</ID>
+          <ToolTip>Enter the property type</ToolTip>
+          <Default>int?</Default>
+        </Literal>
+		  
+        <Literal>
+          <ID>propertyName</ID>
+          <ToolTip>Enter the property name</ToolTip>
+          <Default>Id</Default>
+        </Literal>
+		
+		<Literal>
+          <ID>propertyXml</ID>
+          <ToolTip>Enter the property xml comment</ToolTip>
+          <Default>ID</Default>
+        </Literal>
+		
+      </Declarations>
+		
+      <Code Language="CSharp">
+        <![CDATA[
+        ///<summary>
+        /// $propertyXml$
+        ///</summary>
+        public $propertyType$ $propertyName$ { get; set; }
+        ]]>
+      </Code>
+		
+    </Snippet>
+  </CodeSnippet>
+  
+  <CodeSnippet Format="1.0.0">
+
+    <Header>
+      <Title>Required Property</Title>
+      <Shortcut>rdprop</Shortcut>
+      <Description>Genrates a required property with xml comment</Description>
+      <Author>Dishant</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+		
+      <Declarations>
+		  
+        <Literal>
+          <ID>propertyType</ID>
+          <ToolTip>Enter the property type</ToolTip>
+          <Default>int?</Default>
+        </Literal>
+		  
+        <Literal>
+          <ID>propertyName</ID>
+          <ToolTip>Enter the property name</ToolTip>
+          <Default>Id</Default>
+        </Literal>
+		
+		<Literal>
+          <ID>propertyXml</ID>
+          <ToolTip>Enter the property xml comment</ToolTip>
+          <Default>ID</Default>
+        </Literal>
+		
+      </Declarations>
+		
+      <Code Language="CSharp">
+        <![CDATA[
+        ///<summary>
+        /// $propertyXml$
+        ///</summary>
+       [Required(ErrorMessage = ValidationMessages.MandatoryMessage)]
+        public $propertyType$ $propertyName$ { get; set; }
+        ]]>
+      </Code>
+	  
+	  <Imports>
+        <Import>
+          <Namespace>System.ComponentModel.DataAnnotations</Namespace>
+        </Import>
+      </Imports>
+		
+    </Snippet>
+  </CodeSnippet>
+  
+  <CodeSnippet Format="1.0.0">
+
+    <Header>
+      <Title>default value Property</Title>
+      <Shortcut>vdprop</Shortcut>
+      <Description>Genrates a property with xml comment and give value</Description>
+      <Author>Dishant</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+		
+      <Declarations>
+		  
+        <Literal>
+          <ID>propertyType</ID>
+          <ToolTip>Enter the property type</ToolTip>
+          <Default>int?</Default>
+        </Literal>
+		  
+        <Literal>
+          <ID>propertyName</ID>
+          <ToolTip>Enter the property name</ToolTip>
+          <Default>Id</Default>
+        </Literal>
+		
+		<Literal>
+          <ID>propertyXml</ID>
+          <ToolTip>Enter the property xml comment</ToolTip>
+          <Default>ID</Default>
+        </Literal>
+		
+		<Literal>
+          <ID>propertyValue</ID>
+          <ToolTip>Enter the property value</ToolTip>
+          <Default>0</Default>
+        </Literal>
+		
+      </Declarations>
+		
+      <Code Language="CSharp">
+        <![CDATA[
+        ///<summary>
+        /// $propertyXml$
+        ///</summary>
+        public $propertyType$ $propertyName$ { get; set; } = $propertyValue$;
+        ]]>
+      </Code>
+	  
+	  <Imports>
+        <Import>
+          <Namespace>System.ComponentModel.DataAnnotations</Namespace>
+        </Import>
+      </Imports>
+		
+    </Snippet>
+  </CodeSnippet>
+  
+  <CodeSnippet Format="1.0.0">
+
+    <Header>
+      <Title>string Property</Title>
+      <Shortcut>slprop</Shortcut>
+      <Description>Genrates a string property with maximum string length</Description>
+      <Author>Dishant</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+		
+      <Declarations>
+		  
+        <Literal>
+          <ID>stringLength</ID>
+          <ToolTip>Enter the property length</ToolTip>
+          <Default>0</Default>
+        </Literal>
+		  
+        <Literal>
+          <ID>propertyName</ID>
+          <ToolTip>Enter the property name</ToolTip>
+          <Default>Id</Default>
+        </Literal>
+		
+		<Literal>
+          <ID>propertyXml</ID>
+          <ToolTip>Enter the property xml comment</ToolTip>
+          <Default>ID</Default>
+        </Literal>
+		
+      </Declarations>
+		
+      <Code Language="CSharp">
+        <![CDATA[
+        ///<summary>
+        /// $propertyXml$
+        ///</summary>
+        [StringLength($stringLength$, ErrorMessage = ValidationMessages.NotMoreThanMessage)]
+        public string $propertyName$ { get; set; }
+        ]]>
+      </Code>
+	  
+	  <Imports>
+        <Import>
+          <Namespace>System.ComponentModel.DataAnnotations</Namespace>
+        </Import>
+      </Imports>
+		
+    </Snippet>
+  </CodeSnippet>
+  
+</CodeSnippets>

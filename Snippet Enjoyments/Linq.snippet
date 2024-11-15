@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+
+    <Header>
+      <Title>LINQ Select</Title>
+      <Shortcut>linqselect</Shortcut>
+      <Description>Provides you with the linq select for your collection.</Description>
+      <Author>Dishant</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+		
+      <Declarations>
+		  
+        <Literal>
+          <ID>Collection</ID>
+          <ToolTip>Enter your collection on which you want to transform using linq select</ToolTip>
+          <Default>myCollection</Default>
+        </Literal>
+		  
+        <Literal>
+          <ID>Projection</ID>
+          <ToolTip>Enter the projection (i.e. collectionItem.Name)</ToolTip>
+          <Default>myCollection.Id</Default>
+        </Literal>
+		  
+      </Declarations>
+		
+      <Code Language="CSharp">
+        <![CDATA[
+        var result = $Collection$.Select(x => x.$Projection$);
+        ]]>
+      </Code>
+
+		<Imports>
+			<Import>
+				<Namespace>System.Linq</Namespace>
+			</Import>
+		</Imports>
+
+	</Snippet>
+  </CodeSnippet>
+	
+  <CodeSnippet Format="1.0.0">
+
+    <Header>
+      <Title>LINQ Where</Title>
+      <Shortcut>linqwhere</Shortcut>
+      <Description>Simple query to filter given data based on condition</Description>
+      <Author>Dishant</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+		
+      <Declarations>
+
+		  <Literal>
+			  <ID>Collection</ID>
+			  <ToolTip>Enter your collection on which you want to filter using linq where</ToolTip>
+			  <Default>myCollection</Default>
+		  </Literal>
+
+		  <Literal>
+			  <ID>Condition</ID>
+			  <ToolTip>Enter the condition (i.e. collectionItem.Name == "YourName")</ToolTip>
+			  <Default>myCollection.Id == 1</Default>
+		  </Literal>
+
+	  </Declarations>
+		
+      <Code Language="CSharp">
+        <![CDATA[
+        var filteredItems = $Collection$.Where($Condition$);
+        ]]>
+      </Code>
+
+		<Imports>
+			<Import>
+				<Namespace>System.Linq</Namespace>
+			</Import>
+		</Imports>
+
+	</Snippet>
+  </CodeSnippet>
+  
+  <CodeSnippet Format="1.0.0">
+
+    <Header>
+      <Title>LINQ Order By</Title>
+      <Shortcut>linqorderby</Shortcut>
+      <Description>Sorting the collection by a specified property.</Description>
+      <Author>Dishant</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+		
+      <Declarations>
+
+		  <Literal>
+			  <ID>Collection</ID>
+			  <ToolTip>Enter your collection on which you want to sort using linq sort by</ToolTip>
+			  <Default>myCollection</Default>
+		  </Literal>
+
+		  <Literal>
+			  <ID>SortKey</ID>
+			  <ToolTip>Enter the property to sort by</ToolTip>
+			  <Default>Id</Default>
+		  </Literal>
+
+	  </Declarations>
+		
+      <Code Language="CSharp">
+        <![CDATA[
+        var sortedItems = $Collection$.OrderBy(x => x.$SortKey$);
+        ]]>
+      </Code>
+		
+		<Imports>
+			<Import>
+				<Namespace>System.Linq</Namespace>
+			</Import>
+		</Imports>
+
+	</Snippet>
+  </CodeSnippet>
+	
+  <CodeSnippet Format="1.0.0">
+
+    <Header>
+      <Title>LINQ Group By</Title>
+      <Shortcut>linqgroupby</Shortcut>
+      <Description>Group elements based on property or condition.</Description>
+      <Author>Dishant</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+		
+      <Declarations>
+
+		  <Literal>
+			  <ID>Collection</ID>
+			  <ToolTip>Enter your collection on which you want to group element using linq group by</ToolTip>
+			  <Default>myCollection</Default>
+		  </Literal>
+
+		  <Literal>
+			  <ID>GroupByKey</ID>
+			  <ToolTip>Enter the property to group by</ToolTip>
+			  <Default>Id</Default>
+		  </Literal>
+
+	  </Declarations>
+		
+      <Code Language="CSharp">
+        <![CDATA[
+        var groupedItems = $Collection$.GroupBy(x => x.$GroupByKey$);
+        ]]>
+      </Code>
+		
+		<Imports>
+			<Import>
+				<Namespace>System.Linq</Namespace>
+			</Import>
+		</Imports>
+
+	</Snippet>
+  </CodeSnippet>
+    
+</CodeSnippets>

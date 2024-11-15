@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>AutoMapper Import</Title>
+      <Shortcut>mappd</Shortcut>
+      <Description>Genrates a property with xml comment</Description>
+      <Author>Dishant</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+		
+      <Imports>
+        <Import>
+          <Namespace>AutoMapper</Namespace>
+        </Import>
+      </Imports>
+		
+      <Declarations>
+		  
+        <Literal>
+          <ID>propertyType</ID>
+          <ToolTip>Enter the property type</ToolTip>
+          <Default>int?</Default>
+        </Literal>
+		  
+      </Declarations>
+		
+      <Code Language="CSharp">
+        <![CDATA[
+        private readonly IMapper _mapper;
+        ]]>
+      </Code>
+		
+	</Snippet>
+  </CodeSnippet>
+</CodeSnippets>

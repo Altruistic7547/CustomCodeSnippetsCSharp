@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+
+    <Header>
+      <Title>Assert Equal</Title>
+      <Shortcut>ae</Shortcut>
+      <Description>Asserts that two objects of type T are equal</Description>
+      <Author>Dishant</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+		
+      <Declarations>
+		  
+        <Literal>
+          <ID>T</ID>
+          <ToolTip>Enter the type</ToolTip>
+          <Default>int</Default>
+        </Literal>
+		  
+        <Literal>
+          <ID>expected</ID>
+          <ToolTip>Enter the expected value</ToolTip>
+          <Default>1</Default>
+        </Literal>
+		  
+        <Literal>
+          <ID>actual</ID>
+          <ToolTip>Enter the actual value</ToolTip>
+          <Default>1</Default>
+        </Literal>
+		  
+      </Declarations>
+		
+      <Code Language="CSharp">
+        <![CDATA[
+        Assert.AreEqual<$T$>($expected$, $actual$, "Expected values to be equal.");
+        ]]>
+      </Code>
+		
+    </Snippet>
+  </CodeSnippet>
+	
+  <CodeSnippet Format="1.0.0">
+
+    <Header>
+      <Title>Assert Not Equal</Title>
+      <Shortcut>ane</Shortcut>
+      <Description>Asserts that two objects are not equal</Description>
+      <Author>Dishant</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+		
+      <Declarations>
+		  
+        <Literal>
+          <ID>expected</ID>
+          <ToolTip>Enter the expected value</ToolTip>
+          <Default>1</Default>
+        </Literal>
+		  
+        <Literal>
+          <ID>actual</ID>
+          <ToolTip>Enter the actual value</ToolTip>
+          <Default>1</Default>
+        </Literal>
+		  		  
+      </Declarations>
+		
+      <Code Language="CSharp">
+        <![CDATA[
+        Assert.AreNotEqual<$T$>($expected$, $actual$, "Expected values to not be equal.");
+        ]]>
+      </Code>
+		
+    </Snippet>
+  </CodeSnippet>
+  
+  <CodeSnippet Format="1.0.0">
+
+    <Header>
+      <Title>Assert Equal to 0</Title>
+      <Shortcut>ae0</Shortcut>
+      <Description>Asserts that a value is equal to 0.</Description>
+      <Author>Dishant</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+		
+      <Declarations>
+
+		  <Literal>
+			  <ID>actual</ID>
+			  <ToolTip>Enter the actual value</ToolTip>
+			  <Default>1</Default>
+		  </Literal>
+
+	  </Declarations>
+		
+      <Code Language="CSharp">
+        <![CDATA[
+        Assert.AreEqual(0, $actual$);
+        ]]>
+      </Code>
+		
+    </Snippet>
+  </CodeSnippet>
+    
+  <CodeSnippet Format="1.0.0">
+
+    <Header>
+      <Title>Assert Fail</Title>
+      <Shortcut>afa</Shortcut>
+      <Description>Triggers an assertion failure.</Description>
+      <Author>Dishant</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+		
+      <Declarations>
+		  
+        <Literal>
+          <ID>message</ID>
+          <ToolTip>Fail message</ToolTip>
+          <Default>method failed</Default>
+        </Literal>
+		
+      </Declarations>
+		
+      <Code Language="CSharp">
+        <![CDATA[
+        Assert.Fail("Test failed: $message$");
+        ]]>
+      </Code>
+		
+    </Snippet>
+  </CodeSnippet>
+	
+  <CodeSnippet Format="1.0.0">
+
+    <Header>
+      <Title>Assert IsNull</Title>
+      <Shortcut>an</Shortcut>
+      <Description>Asserts that given value is null</Description>
+      <Author>Dishant</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+		
+      <Declarations>
+		  
+        <Literal>
+          <ID>value</ID>
+          <ToolTip>Enter the value that is expected to be null</ToolTip>
+        </Literal>
+		
+      </Declarations>
+		
+      <Code Language="CSharp">
+        <![CDATA[
+        Assert.IsNull($value$, "Expected the object to be null.");
+        ]]>
+      </Code>
+		
+    </Snippet>
+  </CodeSnippet>
+	
+  <CodeSnippet Format="1.0.0">
+
+    <Header>
+      <Title>Assert IsNotNull</Title>
+      <Shortcut>ann</Shortcut>
+      <Description>Asserts that given value is not null</Description>
+      <Author>Dishant</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+		
+      <Declarations>
+		  
+        <Literal>
+          <ID>value</ID>
+          <ToolTip>Enter the value that is expected to be not null</ToolTip>
+        </Literal>
+		
+      </Declarations>
+		
+      <Code Language="CSharp">
+        <![CDATA[
+        Assert.IsNotNull($value$, "Expected the object to be not null.");
+        ]]>
+      </Code>
+		
+    </Snippet>
+  </CodeSnippet>
+  
+</CodeSnippets>
